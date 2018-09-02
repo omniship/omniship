@@ -1,0 +1,44 @@
+{
+    "name": "omniship/omniship",
+    "description": "A framework agnostic, multi-carrier shipping library for PHP.",
+    "type": "metapackage",
+    "keywords": [
+        "php",
+        "werxe",
+        "omniship",
+        "shipping",
+        "carrier",
+        "parcel"
+    ],
+    "homepage": "https://omniship.werxe.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Werxe",
+            "email": "hello@werxe.com",
+            "homepage": "https://werxe.com"
+        },
+        {
+            "name": "Bruno Gaspar",
+            "email": "bruno@werxe.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "omniship/common": "^1.0",
+        "php-http/guzzle6-adapter": "^1.1"
+    },
+    "require-dev": {
+        "omniship/tests": "^1.0"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "stable"
+}
